@@ -27,8 +27,8 @@
 
   .resource-list--grid {
     display: grid;
-    column-gap: var(--resource-list-column-gap);
-    row-gap: var(--resource-list-row-gap);
+    column-gap: 0 !important;
+    row-gap: 0 !important;
     grid-template-columns: var(--resource-list-columns-mobile);
 
     @media screen and (width >= 750px) {
@@ -40,6 +40,8 @@
     height: 100%;
     color: var(--color-foreground);
     text-decoration: none;
+    padding: 2em;
+    border: 1px solid black;
   }
 
   .section-resource-list__content {
