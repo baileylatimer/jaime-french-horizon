@@ -1,0 +1,320 @@
+{% comment %}
+  V2 Footer Section - Sunset Oil Minimart
+  Non-editable footer with location and business information
+{% endcomment %}
+
+<div class="v2-footer color-{{ section.settings.color_scheme }} section">
+  <div class="page-width">
+    <!-- Desktop Version -->
+    <div class="desktop tw-hidden md:tw-block font-secondary">
+      <!-- Top Row -->
+      <div class="tw-flex justify-start items-center whitespace-nowrap footer-row">
+        <!-- Diamond W Logo -->
+        <span class="diamond-w-wrapper">
+          {% render 'svg-diamond-w', class: 'diamond-w-icon' %}
+        </span>
+        <h2 class="mx-2">8906</h2>
+        <!-- Coordinates Arrows -->
+        <span class="coordinates-wrapper mx-2">
+          {% render 'svg-coordinates', class: 'coordinates-icon' %}
+        </span>
+        <h2 class="mx-2">W SUNSET BLVD</h2>
+        <!-- Star -->
+        <span class="star-wrapper mx-2">
+          {% render 'svg-star', class: 'star-icon' %}
+        </span>
+        <h2>WEST HOLLYWOOD</h2>
+        <!-- CA Flag -->
+        <span class="ca-state-wrapper ml-4">
+          {% render 'svg-ca-state', class: 'ca-state-icon' %}
+        </span>
+      </div>
+      
+      <!-- Bottom Row -->
+      <div class="tw-flex justify-start items-center whitespace-nowrap footer-row">
+        <h2>PUMPING GAS SINCE</h2>
+        <span class="year-96-wrapper mx-2">
+          {% render 'svg-96', class: 'year-96-icon' %}
+        </span>
+        <h2 class="mx-4">PUSHING CULTURE UNTIL</h>
+        <!-- Infinity Symbol -->
+        <span class="infinity-wrapper ml-2">
+          {% render 'svg-infinity', class: 'infinity-icon' %}
+        </span>
+      </div>
+    </div>
+
+    <!-- Mobile Version - Simplified -->
+    <div class="mobile md:hidden font-secondary">
+      <div class="flex flex-col">
+        <div class="footer-row mb-2 tw-flex items-center">
+          <span class="diamond-w-wrapper diamond-w-wrapper-mobile">
+            {% render 'svg-diamond-w', class: 'diamond-w-icon diamond-w-icon-mobile' %}
+          </span>
+          <h2 class="tw-ml-2 h2">8906</h2>
+          <span class="coordinates-wrapper mx-2">
+            {% render 'svg-coordinates', class: 'coordinates-icon' %}
+          </span>
+        
+        </div>
+        <div class="footer-row mb-2 tw-flex items-center">
+          <h2 class="tw-ml-2 h2">W SUNSET BLVD</h2>
+          <span class="star-wrapper mr-1">
+            {% render 'svg-star', class: 'star-icon star-icon-mobile' %}
+          </span>
+          <h2>WEST HOLLYWOOD</h2>
+        </div>
+        <div class="footer-row  tw-flex items-center">
+       
+          <span class="ca-state-wrapper">
+            {% render 'svg-ca-state', class: 'ca-state-icon ca-state-icon-mobile' %}
+          </span>
+          <h2 class="text-sm tw-ml-2 ">PUMPING GAS SINCE 96</h2>
+        </div>
+        <div class="footer-row tw-flex items-center">
+          <h2 class="text-sm ">PUSHING CULTURE UNTIL</h2>
+          <span class="tw-ml-2 infinity-wrapper ml-1">
+            {% render 'svg-infinity', class: 'infinity-icon infinity-icon-mobile' %}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "V2 Footer",
+  "tag": "section",
+  "class": "v2-footer-wrapper",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:settings.color_scheme",
+      "default": "scheme-1"
+    }
+  ],
+  "presets": [
+    {
+      "name": "V2 Footer",
+      "category": "Footer"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  @media screen and (max-width: 749px) {
+    .v2-footer h2 {
+      font-size: 25px !important;
+    }
+
+    .v2-footer svg {
+      transform: scale(.7);
+    }
+    .v2-footer .footer-row {
+      margin-top: -2em
+    }
+    .v2-footer .star-wrapper {
+      height: 50px
+    }
+  }
+
+  .v2-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--color-bg);
+    color: var(--color-contrast-higher);
+  }
+
+  .v2-footer .footer-row {
+    font-size: 1.75rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .v2-footer .font-secondary {
+    font-family: var(--font-header);
+    font-weight: 600;
+  }
+
+  /* SVG Icon Wrappers */
+  .v2-footer .diamond-w-wrapper,
+  .v2-footer .coordinates-wrapper,
+  .v2-footer .star-wrapper,
+  .v2-footer .ca-state-wrapper,
+  .v2-footer .year-96-wrapper,
+  .v2-footer .infinity-wrapper {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+
+  /* Diamond W Icon */
+  .v2-footer .diamond-w-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .v2-footer .diamond-w-icon-mobile {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Coordinates Icon */
+  .v2-footer .coordinates-wrapper {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
+
+  .v2-footer .coordinates-icon {
+    width: 20px;
+    height: 12px;
+  }
+
+  .v2-footer .coordinates-icon-reverse {
+    transform: scaleX(-1);
+  }
+
+  /* Star Icon */
+  .v2-footer .star-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .v2-footer .star-icon-mobile {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* CA State Icon */
+  .v2-footer .ca-state-icon {
+    width: 60px;
+    height: auto;
+  }
+
+  .v2-footer .ca-state-icon-mobile {
+    width: 40px;
+  }
+
+  /* Year 96 Icon */
+  .v2-footer .year-96-icon {
+    width: 70px;
+    height: auto;
+  }
+
+  /* Infinity Icon */
+  .v2-footer .infinity-icon {
+    width: 40px;
+    height: auto;
+  }
+
+  .v2-footer .infinity-icon-mobile {
+    width: 30px;
+  }
+
+  /* Text sizing */
+  .v2-footer .text-xs {
+    font-size: 0.75rem;
+  }
+
+  .v2-footer .text-sm {
+    font-size: 0.875rem;
+  }
+
+  /* Tailwind utility classes */
+  .v2-footer .flex {
+    display: flex;
+  }
+
+  .v2-footer .flex-col {
+    flex-direction: column;
+  }
+
+  .v2-footer .justify-start {
+    justify-content: flex-start;
+  }
+
+  .v2-footer .items-center {
+    align-items: center;
+  }
+
+  .v2-footer .whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+  .v2-footer .hidden {
+    display: none;
+  }
+
+  .v2-footer .block {
+    display: block;
+  }
+
+  .v2-footer .inline-block {
+    display: inline-block;
+  }
+
+  .v2-footer .mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .v2-footer .mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .v2-footer .ml-4 {
+    margin-left: 1rem;
+  }
+
+  .v2-footer .ml-2 {
+    margin-left: 0.5rem;
+  }
+
+  .v2-footer .ml-1 {
+    margin-left: 0.25rem;
+  }
+
+  .v2-footer .mr-1 {
+    margin-right: 0.25rem;
+  }
+
+  .v2-footer .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Media queries for responsive behavior */
+  @media (min-width: 768px) {
+    .v2-footer .md\:block {
+      display: block;
+    }
+
+    .v2-footer .md\:hidden {
+      display: none;
+    }
+  }
+
+  /* Mobile styles */
+  @media (max-width: 767px) {
+    .v2-footer {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    .v2-footer .footer-row {
+      font-size: 1rem;
+      line-height: 1.75rem;
+    }
+  }
+
+  /* SVG color inheritance */
+  .v2-footer svg {
+    color: currentColor;
+  }
+</style>
