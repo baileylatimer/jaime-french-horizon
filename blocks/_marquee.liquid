@@ -22,6 +22,16 @@
     white-space: nowrap;
   }
 
+  .marquee__content p {
+    font-size: 34px !important;
+  }
+
+  @media screen and (width < 750px) {
+    .marquee__content p {
+      font-size: 22px !important;
+    }
+  }
+
   .marquee__content {
     min-width: max-content;
     display: flex;
@@ -46,6 +56,21 @@
 
   .marquee__repeated-items > * {
     align-content: center;
+  }
+
+  /* Marquee Image Styles */
+  .marquee__image {
+    width: 96px;
+    height: 96px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .marquee__image-wrapper {
+    display: flex;
+    align-items: center;
+    width: 96px;
+    height: 96px;
   }
 
   .hero__content-wrapper.layout-panel-flex--column marquee-component {
@@ -110,6 +135,9 @@
     },
     {
       "type": "_divider"
+    },
+    {
+      "type": "_marquee-image"
     }
   ],
   "settings": [

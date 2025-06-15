@@ -2,13 +2,6 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
-    "v2_footer_WjwLFh": {
-      "type": "v2-footer",
-      "name": "V2 Footer",
-      "settings": {
-        "color_scheme": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -281,7 +274,6 @@
         "group_tbFfTQ",
         "footer_utilities_KRaGcH"
       ],
-      "disabled": true,
       "name": "Footer",
       "settings": {
         "content_direction": "column",
@@ -304,7 +296,6 @@
     }
   },
   "order": [
-    "v2_footer_WjwLFh",
     "footer"
   ]
 }

@@ -335,22 +335,158 @@
         "padding-block-end": 96
       }
     },
-    "v2_feature_text_PpnfRr": {
-      "type": "v2-feature-text",
-      "name": "Feature Text",
+    "marquee_LwV8YG": {
+      "type": "marquee",
+      "blocks": {
+        "text_fhF3rR": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Pretty Mid<\/p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_bdRHT8": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "price_tag",
+            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "width": 82,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_VwLiaH": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Super Mild<\/p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_6UiGCx": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "price_tag",
+            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "width": 96,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        },
+        "text_mAYRtT": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Delightfully Dry<\/p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "icon_KpAHbq": {
+          "type": "icon",
+          "name": "t:names.icon",
+          "settings": {
+            "icon": "price_tag",
+            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "width": 96,
+            "link": "",
+            "open_in_new_tab": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_fhF3rR",
+        "icon_bdRHT8",
+        "text_VwLiaH",
+        "icon_6UiGCx",
+        "text_mAYRtT",
+        "icon_KpAHbq"
+      ],
+      "name": "t:names.marquee_section",
       "settings": {
-        "feature_heading": "What started as a West Hollywood gas station became an underground icon—one hat at a time. No billboards. No branding teams. Just local legend, stitched and sold behind pump three.",
-        "indent": true,
-        "right_text": true,
-        "justify_text": false,
-        "small_text": false,
-        "jumbo_text": false
+        "movement_direction": "normal",
+        "color_scheme": "",
+        "padding-block-start": 24,
+        "padding-block-end": 24,
+        "gap_between_elements": 24
+      }
+    },
+    "vinyl_section_dkaDn6": {
+      "type": "vinyl-section",
+      "name": "Vinyl Section",
+      "settings": {
+        "heading": "CELEBRATE THE ART OF BEING WONDERFULLY AVERAGE, WHERE THE JOKES ARE JUST ALRIGHT AND THE CLOTHES ARE ALSO FINE.",
+        "button_label": "OUR STORY",
+        "button_link": "",
+        "vinyl_alt_text": "French Roast vinyl disk",
+        "rotation_speed": 30,
+        "full_width": true
       }
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_qU3bEB",
-    "v2_feature_text_PpnfRr"
+    "marquee_LwV8YG",
+    "vinyl_section_dkaDn6"
   ]
 }

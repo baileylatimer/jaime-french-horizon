@@ -1,0 +1,32 @@
+{% if block.settings.image %}
+  <div class="marquee__image-wrapper">
+    {{
+      block.settings.image
+      | image_url: width: 192
+      | image_tag:
+        width: 96,
+        height: 96,
+        class: 'marquee__image',
+        loading: 'lazy',
+        sizes: '96px'
+    }}
+  </div>
+{% else %}
+  <div class="marquee__image-wrapper">
+    {{ 'image' | placeholder_svg_tag: 'marquee__image' }}
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Image",
+  "tag": null,
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ]
+}
+{% endschema %}
