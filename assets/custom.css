@@ -10,9 +10,7 @@
   --color-bg: #EDEAE4;
   --color-contrast-high: #171717;
   --color-contrast-higher: #000;
-  --font-body: 'PP Fraktion Mono', serif;
-  --font-header: 'OT Neue Montreal', serif;
-  --font-button: 'PP Fraktion Mono', serif;
+
   
   /* Border radius values */
   --border-radius-sm: 8px;
@@ -78,7 +76,7 @@ body {
   /* Primary Font Definitions */
   --font-header: 'OT Pergamon', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   --font-body: 'PP Bulb Classic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-button: 'PP Bulb Classic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-button: 'OT Bulb Classic', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   
   /* Font Weight Definitions */
   --font-weight-regular: 400;
