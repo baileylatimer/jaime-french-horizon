@@ -572,6 +572,11 @@ select::after:active {
   align-items: center;
 }
 
+/* Hide hero h1 initially to prevent flash before animation */
+.hero h1:not([data-animated]) {
+  opacity: 0;
+}
+
 /* =============================================
  * 7. FOOTER STYLES
  * ============================================= */
