@@ -188,7 +188,7 @@ button,
   -moz-osx-font-smoothing: grayscale;
 }
 
-.button {
+.hero .button {
   min-width: 300px;
 }
 
@@ -327,9 +327,20 @@ h2 {
   letter-spacing: var(--font-h2--letter-spacing) !important;
   color: #28282A !important
 }
+
+.product-details h2 {
+  font-size: 34px !important;
+}
 @media screen and (max-width: 749px) {
+
+  h1 {
+    font-size: 58px !important;
+  }
   h2 {
    font-size: 38px !important;
+  }
+  .product-details h2 {
+    font-size: 28px !important;
   }
  }
 
@@ -603,4 +614,14 @@ footer.section-wrapper .section-background,
 footer.section-wrapper .section,
 .shopify-section-group-footer-group .section {
   background-color: transparent !important;
+}
+
+
+
+@media screen and (width < 750px) {
+  .mobile-column {
+    flex-flow: column nowrap;
+    justify-content: start !important;
+    padding-top: 2em;
+  }
 }

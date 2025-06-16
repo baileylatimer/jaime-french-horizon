@@ -86,6 +86,30 @@
     overflow: hidden;
   }
 
+  /* Mobile image handling */
+  .hero__image--desktop {
+    display: block;
+  }
+
+  .hero__image--mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 749px) {
+    .hero__image--desktop {
+      display: none;
+    }
+
+    .hero__image--mobile {
+      display: block;
+    }
+    
+    /* Set hero height to 600px on mobile */
+    .hero {
+      min-height: 600px !important;
+    }
+  }
+
   .hero__link {
     position: absolute;
     inset: 0;
@@ -222,17 +246,42 @@
 {% capture media %}
   {%- if has_image_1 -%}
     {% assign media_count = media_count | plus: 1 %}
-    {{
-      section.settings.image_1
-      | image_url: width: 3840
-      | image_tag:
-        width: section.settings.image_1.width,
-        widths: widths,
-        height: section.settings.image_1.height,
-        alt: section.settings.image_1.alt,
-        class: 'hero__image',
-        sizes: sizes
-    }}
+    {% if section.settings.mobile_image_1 != blank %}
+      {{
+        section.settings.image_1
+        | image_url: width: 3840
+        | image_tag:
+          width: section.settings.image_1.width,
+          widths: widths,
+          height: section.settings.image_1.height,
+          alt: section.settings.image_1.alt,
+          class: 'hero__image hero__image--desktop',
+          sizes: sizes
+      }}
+      {{
+        section.settings.mobile_image_1
+        | image_url: width: 1200
+        | image_tag:
+          width: section.settings.mobile_image_1.width,
+          widths: '300, 450, 600, 750, 900, 1050, 1200',
+          height: section.settings.mobile_image_1.height,
+          alt: section.settings.mobile_image_1.alt,
+          class: 'hero__image hero__image--mobile',
+          sizes: '100vw'
+      }}
+    {% else %}
+      {{
+        section.settings.image_1
+        | image_url: width: 3840
+        | image_tag:
+          width: section.settings.image_1.width,
+          widths: widths,
+          height: section.settings.image_1.height,
+          alt: section.settings.image_1.alt,
+          class: 'hero__image',
+          sizes: sizes
+      }}
+    {% endif %}
   {%- endif -%}
 
   {%- if has_video_1 -%}
@@ -472,6 +521,13 @@
       "type": "image_picker",
       "id": "image_1",
       "label": "t:settings.image",
+      "visible_if": "{{ section.settings.media_type_1 == 'image' }}"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image_1",
+      "label": "Mobile Image",
+      "info": "Optional: Different image for mobile devices",
       "visible_if": "{{ section.settings.media_type_1 == 'image' }}"
     },
     {
