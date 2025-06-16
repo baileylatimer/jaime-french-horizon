@@ -141,13 +141,13 @@ body {
 }
 
 .menu-drawer__menu-item {
-  font-size: 64px !important;
+  font-size: 36px !important;
   text-align: center !important;
 }
 
 /* Paragraphs */
-p {
-  font-family: var(--font-body);
+p, .cart-secondary-typography {
+  font-family: var(--font-body) !important;
   font-weight: var(--font-weight-regular);
   text-transform: uppercase;
 }
@@ -624,4 +624,14 @@ footer.section-wrapper .section,
     justify-content: start !important;
     padding-top: 2em;
   }
+}
+
+
+
+.size-style.link {
+  display: none;
+}
+
+.header {
+  background: linear-gradient(180deg, #1B1B1B 0%, rgba(27, 27, 27, 0.00) 100%);
 }
