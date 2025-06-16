@@ -42,6 +42,9 @@
 html, 
 body {
   background-color: var(--color-bg) !important;
+  background-image: url('./bg-texture.jpg');
+  background-size: 200px 200px;
+  background-repeat: repeat;
 }
 
 
