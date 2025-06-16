@@ -643,3 +643,7 @@ footer.section-wrapper .section,
 .header {
   background: linear-gradient(180deg, #1B1B1B 0%, rgba(27, 27, 27, 0.00) 100%);
 }
+
+#shopify-pc__banner {
+  display: none !important;
+}

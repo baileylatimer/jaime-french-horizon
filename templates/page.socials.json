@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "* {background-image: url(\"https://cdn.shopify.com/s/files/1/0594/0012/6595/files/jamie-background.jpg?v=1715482548\"); background-size: 100%; z-index: hidden; background-repeat: repeat; background-attachment: scroll;}"
+      ],
+      "settings": {}
+    },
+    "videos_pTqnLa": {
+      "type": "videos",
+      "blocks": {
+        "video_nKyV7x": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://youtu.be/jbkzJqN6Zbg?si=T5EjxKFNjgP8nht9",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "@YOUTUBE",
+            "url": "",
+            "info_color": "#ff0000"
+          }
+        },
+        "video_d34hCY": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Download.mp4",
+            "video_url": "",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "@TIKTOK",
+            "url": "https://www.tiktok.com/@jaimefrench",
+            "info_color": "#fff0de"
+          }
+        },
+        "video_8yqxWd": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/10000000_776728477743915_8488887436773147813_n.mp4",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "autoplay": true,
+            "loop": true,
+            "info": "@INSTAGRAM",
+            "url": "https://www.instagram.com/jaime.french/",
+            "info_color": "#ffb3ba"
+          }
+        }
+      },
+      "block_order": [
+        "video_nKyV7x",
+        "video_d34hCY",
+        "video_8yqxWd"
+      ],
+      "custom_css": [
+        ".video-social-template--17298001264771__videos_pTqnLa {background-image: url(\"https://cdn.shopify.com/s/files/1/0594/0012/6595/files/jamie-background.jpg?v=1715482548\"); background-size: 100%; background-attachment: scroll;}"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Drink up Jaime’s hot takes on film, pop-culture discourse, and hilarious comedy skits!</p>",
+        "sub_heading_custom": false,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 20,
+        "sub_heading_size_mobile": 18,
+        "sub_heading_height": 150,
+        "sub_heading_align": "center",
+        "sub_heading_align_mobile": "center",
+        "sub_heading_mt": 20,
+        "slider_view": 3,
+        "slider_view_mobile": 2,
+        "slider_gap": 16,
+        "slider_gap_mobile": 16,
+        "slider_mt": 70,
+        "card_padding_vertical": 0,
+        "card_padding_vertical_mobile": 0,
+        "card_padding_horizontal": 0,
+        "card_padding_horizontal_mobile": 0,
+        "card_radius": 20,
+        "card_border_thickness": 0,
+        "video_radius": 0,
+        "video_border_thickness": 0,
+        "video_ratio": "portrait",
+        "video_ratio_mobile": "portrait",
+        "radius_top": false,
+        "border_bottom": false,
+        "content_padding_vertical": 10,
+        "content_padding_vertical_mobile": 10,
+        "content_padding_horizontal": 10,
+        "content_padding_horizontal_mobile": 10,
+        "content_radius": 0,
+        "content_border_thickness": 0,
+        "info_custom": false,
+        "info_font": "josefin_sans_n4",
+        "info_size": 16,
+        "info_size_mobile": 12,
+        "info_height": 130,
+        "info_align": "center",
+        "info_align_mobile": "center",
+        "action_size": 36,
+        "action_size_mobile": 36,
+        "action_icon_size": 24,
+        "action_icon_size_mobile": 24,
+        "action_border_thickness": 0,
+        "action_position_mobile": "top_left",
+        "action_position": "top_left",
+        "hide_action": true,
+        "navigation_gap": 100,
+        "navigation_gap_mobile": 30,
+        "navigation_mt": 50,
+        "arrow_size": 50,
+        "arrow_size_mobile": 50,
+        "arrow_icon_size": 16,
+        "arrow_icon_size_mobile": 16,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "pagination_custom": false,
+        "pagination_font": "josefin_sans_n4",
+        "pagination_size": 16,
+        "pagination_size_mobile": 16,
+        "pagination_height": 100,
+        "pagination_show_desktop": true,
+        "pagination_show_mobile": true,
+        "card_bg_color": "#ffa400",
+        "card_border_color": "#ffa502",
+        "video_border_color": "#ffa502",
+        "content_bg_color": "#000000",
+        "content_border_color": "#000000",
+        "action_bg_color": "#ececec",
+        "action_bg_hover_color": "#fdf0ea",
+        "action_border_color": "#000000",
+        "action_border_hover_color": "#000000",
+        "action_icon_color": "#121212",
+        "action_icon_hover_color": "#121212",
+        "arrow_color": "#000000",
+        "arrow_hover_color": "#000000",
+        "arrow_bg_color": "#ffa502",
+        "arrow_bg_hover_color": "#ffbc49",
+        "arrow_border_color": "#000000",
+        "arrow_border_hover_color": "#000000",
+        "pagination_color": "#000000",
+        "heading_color": "#000000",
+        "sub_heading_color": "#000000",
+        "background_color": "#fffced",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "videos_pTqnLa"
+  ]
+}
