@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_jVaWmY": {
@@ -7,7 +16,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>The<\/h2><h1>Slashed<\/h1><h2>Tee<\/h2>",
+            "text": "<h2>The</h2><h1>Slashed</h1><h2>Tee</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -35,7 +44,7 @@
           "disabled": true,
           "settings": {
             "label": "Shop now",
-            "link": "shopify:\/\/products\/french-roast-logo-arctic-crewneck",
+            "link": "shopify://products/french-roast-logo-arctic-crewneck",
             "open_in_new_tab": false,
             "style_class": "button",
             "width": "fit-content",
@@ -55,8 +64,8 @@
         "link": "",
         "open_in_new_tab": false,
         "media_type_1": "image",
-        "image_1": "shopify:\/\/shop_images\/hero--desktop_e061c29f-4014-4142-b0d9-b8f36b090603.jpg",
-        "mobile_image_1": "shopify:\/\/shop_images\/hero--mobile.jpg",
+        "image_1": "shopify://shop_images/hero--desktop_e061c29f-4014-4142-b0d9-b8f36b090603.jpg",
+        "mobile_image_1": "shopify://shop_images/hero--mobile.jpg",
         "media_type_2": "image",
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -120,7 +129,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h3>Shop the drop<\/h3>",
+                "text": "<h3>Shop the drop</h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -321,10 +330,10 @@
       "settings": {
         "collection": "french-roast",
         "layout_type": "grid",
-        "carousel_on_mobile": true,
+        "carousel_on_mobile": false,
         "max_products": 3,
         "columns": 3,
-        "mobile_columns": "2",
+        "mobile_columns": "1",
         "columns_gap": 4,
         "rows_gap": 24,
         "icons_style": "arrow",
@@ -344,7 +353,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Pretty Mid<\/p>",
+            "text": "<p>Pretty Mid</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -371,7 +380,7 @@
           "name": "t:names.icon",
           "settings": {
             "icon": "price_tag",
-            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "image_upload": "shopify://shop_images/skull-icon.png",
             "width": 82,
             "link": "",
             "open_in_new_tab": false
@@ -382,7 +391,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Super Mild<\/p>",
+            "text": "<p>Super Mild</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -409,7 +418,7 @@
           "name": "t:names.icon",
           "settings": {
             "icon": "price_tag",
-            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "image_upload": "shopify://shop_images/skull-icon.png",
             "width": 96,
             "link": "",
             "open_in_new_tab": false
@@ -420,7 +429,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Delightfully Dry<\/p>",
+            "text": "<p>Delightfully Dry</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -447,7 +456,7 @@
           "name": "t:names.icon",
           "settings": {
             "icon": "price_tag",
-            "image_upload": "shopify:\/\/shop_images\/skull-icon.png",
+            "image_upload": "shopify://shop_images/skull-icon.png",
             "width": 96,
             "link": "",
             "open_in_new_tab": false
