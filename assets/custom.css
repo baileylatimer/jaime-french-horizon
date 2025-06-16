@@ -9,7 +9,7 @@
  :root {
   --color-bg: #EDEAE4;
   --color-contrast-high: #171717;
-  --color-contrast-higher: #000;
+  --color-contrast-higher: #1B1B1B;
 
   
   /* Border radius values */
@@ -186,6 +186,10 @@ button,
   font-weight: var(--font-weight-medium) !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.button {
+  min-width: 300px;
 }
 
 /* ============================================
@@ -552,4 +556,51 @@ select::after:active {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* =============================================
+ * 7. FOOTER STYLES
+ * ============================================= */
+/* Footer background image */
+footer.section-wrapper,
+.shopify-section-group-footer-group {
+  position: relative;
+}
+
+footer.section-wrapper .section,
+.shopify-section-group-footer-group .section {
+  position: relative;
+  z-index: 2;
+}
+
+footer.section-wrapper::before,
+.shopify-section-group-footer-group::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./footer.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+/* Ensure footer content is visible above background */
+footer .section-content-wrapper {
+  position: relative;
+  z-index: 3;
+}
+
+/* Override any existing background colors to be transparent */
+footer.section-wrapper .section-background,
+.shopify-section-group-footer-group .section-background {
+  background-color: transparent !important;
+}
+
+footer.section-wrapper .section,
+.shopify-section-group-footer-group .section {
+  background-color: transparent !important;
 }
