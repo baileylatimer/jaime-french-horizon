@@ -32,6 +32,7 @@
         "button_GAVNHB": {
           "type": "button",
           "name": "t:names.button",
+          "disabled": true,
           "settings": {
             "label": "Shop now",
             "link": "shopify:\/\/products\/french-roast-logo-arctic-crewneck",

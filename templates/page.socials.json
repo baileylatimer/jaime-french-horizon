@@ -1,20 +1,76 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
- {
+{
   "sections": {
     "main": {
       "type": "main-page",
-      "custom_css": [
-        "* {background-image: url(\"https://cdn.shopify.com/s/files/1/0594/0012/6595/files/jamie-background.jpg?v=1715482548\"); background-size: 100%; z-index: hidden; background-repeat: repeat; background-attachment: scroll;}"
+      "blocks": {
+        "text_w9Hpn4": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h2>Jamie on the web<\/h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 48,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_N4W6BR": {
+          "type": "text",
+          "name": "t:names.text",
+          "settings": {
+            "text": "<p>Drink up Jaime’s hot takes on film, pop-culture discourse, and hilarious comedy skits!<\/p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "rte",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_w9Hpn4",
+        "text_N4W6BR"
       ],
-      "settings": {}
+      "disabled": true,
+      "custom_css": [
+        "* {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0012\/6595\/files\/jamie-background.jpg?v=1715482548\"); background-size: 100%; z-index: hidden; background-repeat: repeat; background-attachment: scroll;}"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 12,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
     },
     "videos_pTqnLa": {
       "type": "videos",
@@ -22,7 +78,7 @@
         "video_nKyV7x": {
           "type": "video",
           "settings": {
-            "video_url": "https://youtu.be/jbkzJqN6Zbg?si=T5EjxKFNjgP8nht9",
+            "video_url": "https:\/\/youtu.be\/jbkzJqN6Zbg?si=T5EjxKFNjgP8nht9",
             "controls": false,
             "autoplay": true,
             "loop": true,
@@ -34,26 +90,26 @@
         "video_d34hCY": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Download.mp4",
+            "video": "shopify:\/\/files\/videos\/Download.mp4",
             "video_url": "",
             "controls": false,
             "autoplay": true,
             "loop": true,
             "info": "@TIKTOK",
-            "url": "https://www.tiktok.com/@jaimefrench",
+            "url": "https:\/\/www.tiktok.com\/@jaimefrench",
             "info_color": "#fff0de"
           }
         },
         "video_8yqxWd": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/10000000_776728477743915_8488887436773147813_n.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "video": "shopify:\/\/files\/videos\/10000000_776728477743915_8488887436773147813_n.mp4",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "controls": false,
             "autoplay": true,
             "loop": true,
             "info": "@INSTAGRAM",
-            "url": "https://www.instagram.com/jaime.french/",
+            "url": "https:\/\/www.instagram.com\/jaime.french\/",
             "info_color": "#ffb3ba"
           }
         }
@@ -64,7 +120,7 @@
         "video_8yqxWd"
       ],
       "custom_css": [
-        ".video-social-template--17298001264771__videos_pTqnLa {background-image: url(\"https://cdn.shopify.com/s/files/1/0594/0012/6595/files/jamie-background.jpg?v=1715482548\"); background-size: 100%; background-attachment: scroll;}"
+        ".video-social-template--17298001264771__videos_pTqnLa {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0594\/0012\/6595\/files\/jamie-background.jpg?v=1715482548\"); background-size: 100%; background-attachment: scroll;}"
       ],
       "settings": {
         "heading": "",
@@ -75,7 +131,7 @@
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
-        "sub_heading": "<p>Drink up Jaime’s hot takes on film, pop-culture discourse, and hilarious comedy skits!</p>",
+        "sub_heading": "<p>Drink up Jaime’s hot takes on film, pop-culture discourse, and hilarious comedy skits!<\/p>",
         "sub_heading_custom": false,
         "sub_heading_font": "josefin_sans_n4",
         "sub_heading_size": 20,
@@ -159,7 +215,7 @@
         "pagination_color": "#000000",
         "heading_color": "#000000",
         "sub_heading_color": "#000000",
-        "background_color": "#fffced",
+        "background_color": "rgba(0,0,0,0)",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
